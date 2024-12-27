@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 var cors = require('cors')
-const mongoose = require('mongoose');
+// const mongoose = require('mongoose');
 const nodemailer = require("nodemailer");
 const port = 3000
 
@@ -44,5 +44,7 @@ app.get('/', (req, res) => {
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
+
+
 
 
